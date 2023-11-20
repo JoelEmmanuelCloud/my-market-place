@@ -9,7 +9,6 @@ import {
 import User from '../models/users';
 
 const getAllUsers = async (req: Request, res: Response): Promise<void> => {
-  console.log(req.user);
   const users = await User.find({ role: 'user' }).select('-password');
   res.status(StatusCodes.OK).json({ users });
 };
