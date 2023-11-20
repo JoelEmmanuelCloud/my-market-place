@@ -12,12 +12,14 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
     "@types/validator": "^13.11.6",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
     "validator": "^13.11.0"
   }
 }
