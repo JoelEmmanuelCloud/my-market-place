@@ -6,7 +6,7 @@ import {
   attachCookiesToResponse,
   checkPermissions,
 } from '../utils';
-import User from '../models/users';
+import User from '../models/user';
 
 const getAllUsers = async (req: Request, res: Response): Promise<void> => {
   const users = await User.find({ role: 'user' }).select('-password');

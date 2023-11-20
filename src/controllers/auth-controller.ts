@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { BadRequestError, UnauthenticatedError } from '../errors';
 import { attachCookiesToResponse, createTokenUser } from '../utils';
-import User from '../models/users';
+import User from '../models/user';
 
 const register = async (req: Request, res: Response): Promise<void> => {
   const { email, name, password } = req.body;
