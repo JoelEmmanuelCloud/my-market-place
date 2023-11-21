@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import {BadRequestError, NotFoundError} from '../errors';
 import  ProductModel, {IProduct } from '../models/product';
-import  ReviewModel, {IReview } from '../models/reviews'; 
+import  ReviewModel, {IReview } from '../models/review'; 
 import { checkPermissions } from '../utils';
 
 const createReview = async (req: Request, res: Response): Promise<void> => {
