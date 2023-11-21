@@ -2,7 +2,6 @@ import jwt from 'jsonwebtoken';
 import { Response } from 'express';
 
 interface UserPayload {
-  // Add any other properties from your user payload
   name: string;
   userId: string;
   role: string;
