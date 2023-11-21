@@ -18,9 +18,9 @@ import connectDB from './database/connectDB';
 
 import authRouter from './routes/auth-route';
 import userRouter from './routes/user-route';
-import productRouter from './routes/productRoutes';
-import reviewRouter from './routes/reviewRoutes';
-import orderRouter from './routes/orderRoutes';
+import productRouter from './routes/product-route';
+import reviewRouter from './routes/review-route';
+import orderRouter from './routes/order-route';
 
 import notFoundMiddleware from './middleware/not-found';
 import errorHandlerMiddleware from './middleware/error-handler';
