@@ -1,6 +1,6 @@
 import mongoose, { Document, PopulatedDoc, Schema } from 'mongoose';
 import { IUser } from './user'; 
-import { IReview } from './reviews';
+import { IReview } from './review';
 
 export interface IProduct extends Document {
   name: string;
